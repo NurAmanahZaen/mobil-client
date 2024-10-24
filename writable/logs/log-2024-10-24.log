@@ -1,0 +1,705 @@
+INFO - 2024-10-24 04:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-24 04:39:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "edit-mobil.php"
+[Method: GET, Route: mobil/edit/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit-mobil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-mobil', [], true)
+ 3 APPPATH\Controllers\Mobil.php(82): view('edit-mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 04:40:25 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/2]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 04:45:58 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/2]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+INFO - 2024-10-24 05:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 05:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 05:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 05:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 05:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-24 05:04:03 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/7]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('7')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+INFO - 2024-10-24 05:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 05:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 05:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 05:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 05:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-24 05:12:32 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/9]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 05:13:22 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/9]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 05:15:45 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/9]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 05:18:09 --> ErrorException: Undefined variable $data_Mobil
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_Mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 05:19:57 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/9]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 05:21:12 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/9]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+INFO - 2024-10-24 05:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 05:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 05:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 05:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-24 05:37:34 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/1]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 05:39:02 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/11]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('11')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 05:48:53 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: GET, Route: mobil]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 691.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-10-24 06:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 06:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 06:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-24 06:17:35 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/1]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+INFO - 2024-10-24 06:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-24 06:19:20 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/13]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:19:44 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/13]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:21:26 --> ErrorException: Undefined variable $mobil1
+[Method: GET, Route: mobil/edit/13]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil1', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+INFO - 2024-10-24 06:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-24 06:22:02 --> ErrorException: Undefined variable $mobil1
+[Method: GET, Route: mobil/edit/14]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil1', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:39:37 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/14]
+in APPPATH\Views\edit-mobil.php on line 15.
+ 1 APPPATH\Views\edit-mobil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('edit-mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:41:02 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/13]
+in APPPATH\Views\edit-mobil.php on line 15.
+ 1 APPPATH\Views\edit-mobil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('edit-mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:41:39 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/13]
+in APPPATH\Views\edit-mobil.php on line 15.
+ 1 APPPATH\Views\edit-mobil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('edit-mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:43:22 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/13]
+in APPPATH\Views\edit-mobil.php on line 15.
+ 1 APPPATH\Views\edit-mobil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('edit-mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:43:24 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/13]
+in APPPATH\Views\edit-mobil.php on line 15.
+ 1 APPPATH\Views\edit-mobil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('edit-mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:43:24 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/13]
+in APPPATH\Views\edit-mobil.php on line 15.
+ 1 APPPATH\Views\edit-mobil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('edit-mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:43:25 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/13]
+in APPPATH\Views\edit-mobil.php on line 15.
+ 1 APPPATH\Views\edit-mobil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('edit-mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:43:25 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/13]
+in APPPATH\Views\edit-mobil.php on line 15.
+ 1 APPPATH\Views\edit-mobil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('edit-mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:43:42 --> ErrorException: Undefined variable $mobil1
+[Method: GET, Route: mobil/edit/13]
+in APPPATH\Views\edit-mobil.php on line 15.
+ 1 APPPATH\Views\edit-mobil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil1', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('edit-mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:45:12 --> ErrorException: Undefined variable $mobils
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobils', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:45:17 --> ErrorException: Undefined variable $mobils
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobils', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:45:58 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:46:17 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:47:52 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:48:20 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:50:10 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:50:15 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:51:36 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:51:39 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:52:30 --> ErrorException: Undefined variable $mobils
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobils', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:53:16 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:54:11 --> ErrorException: Undefined variable $data
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:55:26 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 06:56:18 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil]
+in APPPATH\Views\mobil.php on line 36.
+ 1 APPPATH\Views\mobil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(20): view('mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+INFO - 2024-10-24 07:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 07:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 07:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-24 07:05:00 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/15]
+in APPPATH\Views\edit-mobil.php on line 15.
+ 1 APPPATH\Views\edit-mobil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('edit-mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('15')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 07:05:29 --> ErrorException: Undefined variable $mobil
+[Method: GET, Route: mobil/edit/15]
+in APPPATH\Views\edit-mobil.php on line 15.
+ 1 APPPATH\Views\edit-mobil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobil', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('edit-mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('15')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 07:06:26 --> ErrorException: Undefined variable $mobils
+[Method: GET, Route: mobil/edit/15]
+in APPPATH\Views\edit-mobil.php on line 15.
+ 1 APPPATH\Views\edit-mobil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobils', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('edit-mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('15')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+CRITICAL - 2024-10-24 07:06:30 --> ErrorException: Undefined variable $mobils
+[Method: GET, Route: mobil/edit/15]
+in APPPATH\Views\edit-mobil.php on line 15.
+ 1 APPPATH\Views\edit-mobil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobils', 'C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mobil-client\\app\\Views\\edit-mobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-mobil', [], true)
+ 5 APPPATH\Controllers\Mobil.php(82): view('edit-mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mobil->edit('15')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\mobil-client\\public\\index.php')
+INFO - 2024-10-24 07:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 07:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 07:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 07:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 07:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
